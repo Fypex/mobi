@@ -1,0 +1,27 @@
+body{
+    background: #F8F8F8;
+        min-height: 100vh;
+}
+.nav-button{
+	min-height: 40px !important;
+    margin: 10px !important;
+}
+.uk-notification{
+    max-width: 50vw !important;
+    width: auto !important;
+}
+.uk-notification-message{
+    background: #888888;
+    color: white;
+    font-weight: bold;
+}
+.uk-navbar{
+    background: #f3f3f3 !important;
+}
+.table-button{
+    min-width: 240px;
+}
+
+tr > th,td{
+    text-align: center !important;
+}

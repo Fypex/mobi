@@ -1,0 +1,19 @@
+{
+    "require": {
+		"mikecao/flight": "^1.3",
+		"symfony/dotenv": "^4.2.5",
+		"gabordemooij/redbean": "dev-master"
+    },
+    "autoload": {
+		"psr-4": {
+			"Controllers\\": "controllers/",
+			"Models\\": "models/"
+		},
+		"files": [
+			 "configs/env.php",
+			 "configs/db.php",
+			 "configs/flight.php",
+		     "routes/routes.php"
+		]
+    }
+}
