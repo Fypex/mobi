@@ -59,7 +59,7 @@ class RecordController extends Controller
 
         $query = $this->urlCaptcha.'?secret='.$key.'&response='.$response.'&remoteip='.$_SERVER['REMOTE_ADDR'];
         $data =json_decode(file_get_contents($query),true);
-        if (!true) {
+        if (!$data['success']) {
             $this->json([
                 'status' => 'error',
                 'message' => 'Проверка капчи не пройдена'
